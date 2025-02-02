@@ -4,6 +4,7 @@
 
 header_pages:
   - index.md
+  - categories.md
 #  - about.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'

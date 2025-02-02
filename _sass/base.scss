@@ -20,6 +20,9 @@ p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
+.prompt { margin-top: 12px; }
+.promptGreen { color: #00FF00; }
+.promptBlue { color: #0000EE; }
 
 /**
  * Layout
@@ -48,8 +51,8 @@ footer { margin-bottom: 20px; }
  * Header/Navigation
  */
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
-.menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
-.menu ul li { display: inline;  margin-left: 10px; }
+.menu ul { margin-top: 12px;  margin-bottom: 12px;  padding: 0 10px 0 0;  list-style-type: none;  text-align: left; }
+.menu ul li { display: inline;  margin-right: 10px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 
