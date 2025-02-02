@@ -6,7 +6,7 @@ title: posts
 
 {%- if site.posts.size > 0 -%}
     <div class="prompt">
-      <span class="promptGreen">gridranger.github.io</span>:<span class="promptBlue">~</span> $ ls -l posts<br>
+      <span class="promptGreen">gridranger.github.io</span>:<span class="promptBlue">~</span> $ ls -l posts
     </div>
     {%- for post in site.posts -%}
       {%- assign date_format = "%Y-%m-%d" -%}
