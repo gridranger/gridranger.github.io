@@ -5,6 +5,8 @@ date: 2025-02-02 15:39:24
 categories: [Development, Python]
 ---
 
+# Discovering the web-browser module
+
 I like that after 14 years of using Python I can still find something new in it.
 
 Today I used the `webbrowser` module for the first time. It allows you to open URLs in the browser installed on the system. It's not new, but I've never had a reason to use it before.
