@@ -4,6 +4,10 @@ layout: home
 permalink: /
 ---
 
-# Lorem ipsum
+# Welcome to my page
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I created this page to learn Jekyll and post some of my notes. I'll be happy if you find them useful. 😊
+
+I have a long history with Python and Robot Framework, so I will probably post a lot about those topics. I don't have much time to tinker, but I like to take notes so I can remember what I've learned. 🐍🤖
+
+I like to use TDD and follow clean code principles, not only because I usually design code for long-term use, but also because I enjoy creating neatly organised code. 👓

@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
+permalink: /posts
+title: posts
 ---
-
-{{ content }}
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.posts.size > 0 -%}
     <div class="prompt">
