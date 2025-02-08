@@ -17,7 +17,7 @@ Well, in general a `partial` object is very close to a `lambda` function. But I 
 
 We have a nice TkInter Button and every time we press it, we want to print "Hello World" to the console.
 
-```
+```python
 import tkinter as tk
 
 root = tk.Tk()
@@ -36,7 +36,7 @@ Since the `print` function needs argument, we cannot use print as the value of t
 
 Let's simplify it with `lambda`.
 
-```
+```python
 import tkinter as tk
 
 root = tk.Tk()
@@ -50,7 +50,7 @@ root.mainloop()
 
 With `partial`, we can do the same.
 
-```
+```python
 from functools import partial
 import tkinter as tk
 
@@ -73,7 +73,7 @@ They are also easier to read and debug then `lambda` expressions. At debug time,
 
 You can also use `partial` objects to create aliases to function or method calls with the same argument set, make your code more organized and readable.
 
-```
+```python
 from functools import partial
 
 def print_my_text(title: str, body: list[str]) -> None:
@@ -89,7 +89,7 @@ def print_my_text(title: str, body: list[str]) -> None:
 
 The same effect can be achieved within class definitions. This is where `partialmethod` comes in. The sample class below will have 4 fully functional methods, but half of the lines can be saved.
 
-```
+```python
 from functools import partialmethod
 
 class ToggleExample:
